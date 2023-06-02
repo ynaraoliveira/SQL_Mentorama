@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" modified="2023-06-02T12:56:13.264Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="XtxiRiZ_oEmT9vMUXE_s" version="21.3.7" type="github">
+  <diagram name="Page-1" id="ZsOF7TcuaW5bzOkD4dVv">
+    <mxGraphModel dx="1034" dy="1569" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-1" value="gbtdb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+          <mxGeometry x="560" y="220" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-3" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="240" as="sourcePoint" />
+            <mxPoint x="540" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-4" value="consulta (psrs e estabelecimentos cadastrados), &lt;br&gt;escrita (registro das transações), &lt;br&gt;alteração (mudança do status das transações)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="240" y="250" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-5" value="usuário" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="200" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-11" value="analista" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="570" y="-20" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-14" value="gbtdb.interface" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="220" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="240" as="sourcePoint" />
+            <mxPoint x="110" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="70" as="sourcePoint" />
+            <mxPoint x="580" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-17" value="consulta (geração de relatórios)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="390" y="120" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-18" value="Usuários&lt;br&gt;- ynara&lt;br&gt;- gbtdb_interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="95" y="343" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vaXrAE2Kq6q2VXv-Ndz_-19" value="Roles&lt;br&gt;- consulta&lt;br&gt;- operacao" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="510" y="343" width="80" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
