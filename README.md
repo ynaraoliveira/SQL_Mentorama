@@ -36,7 +36,7 @@ O sistema proposto descreve a arquitetura de armazenamento de dados de um e-comm
 
 → **vendas**: a tabela vendas representa apenas aqueles pedidos que foram concluídos com sucesso e, portanto, têm status aprovado. Suas colunas são id_pedido, valor e data_pedido.
 
-![Query com a criação e inserção de dados nas tabelas](https://github.com/ynaraoliveira/SQL_Mentorama/blob/main/definicao.sql)
+[Query com a criação e inserção de dados nas tabelas](https://github.com/ynaraoliveira/SQL_Mentorama/blob/main/definicao.sql)
 
 ## Modelo Físico
 
@@ -62,4 +62,4 @@ Abaixo segue um o diagrama entidade e relacionamento do banco de dados já refin
     
     Essa query busca analisar a região do país que lidera o pedido de vendas na plataforma. Assim podemos tanto buscar ações para manter um bom fluxo de vendas nessa região como buscar formas de engajar as regiões com um volume menor de vendas ou implementar outras medidas, se necessário.
 
-![Query com as análises feitas acima](https://github.com/ynaraoliveira/SQL_Mentorama/blob/main/analise.sql)
+[Query com as análises feitas acima](https://github.com/ynaraoliveira/SQL_Mentorama/blob/main/analise.sql)
